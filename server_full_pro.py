@@ -70,6 +70,9 @@ def run():
                             if not href or not text:
                                 continue
 
+                            if "/immobilienangebot/" not in href:
+                                continue
+
                             if not is_good(text):
                                 continue
 
