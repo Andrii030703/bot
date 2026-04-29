@@ -1,4 +1,4 @@
 #!/bin/bash
 
 playwright install --with-deps chromium
-python server_saga_api_max.py
+python server_full_max.py
